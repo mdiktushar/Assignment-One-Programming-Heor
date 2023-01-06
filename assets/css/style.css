@@ -1,0 +1,177 @@
+*{  
+    /* Global */
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Banner */
+.banner{
+    max-width: 1500px;
+    height: 808px;
+    left: 1500px;
+    background-image: url('../images/Banner/banner1.png');
+}
+
+.banner h1{
+    padding: 216px 230px 0px 845px;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: right;
+}
+.banner p{
+    padding: 5px 230px 0px 845px;
+    font-size: 13px;
+    line-height: 26px;
+    text-align: right;
+}
+
+.banner button{
+    margin: 5px 230px 0px 1030px;
+    font-weight: 600;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #F15b22;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 20px;
+}
+/* Banner End*/
+
+/* Main */
+
+/* Intor Section */
+.intro{
+    display: flex; 
+}
+
+.intro img{
+    margin-left: 204px;
+    margin-top: 131px;
+}
+
+.intro div{
+    margin-left: 87px;
+    margin-top: 370px;
+}
+
+.intro div h1 {
+    margin-right: 250px;
+    color: #151414;
+}
+
+.intro div p {
+    margin-top: 24px;
+    margin-right: 100px;
+    line-height: 26px;
+}
+
+.intro div ul {
+    padding: 0;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.intro div li:before {
+    color: green;
+    content: '✓ ';
+}
+/* Intro Section End */
+
+/* Plan Section */
+.my-plans {
+    max-width: 1100px;
+    margin: 150px auto 0px auto;
+}
+
+.my-plans h1 {
+    text-align: center;
+}
+
+.plans {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plans div div{
+    text-align: center;
+}
+
+.plans div div h3 {
+    color: #151414;
+}
+
+.plans div div p {
+    color: #737272;
+    padding-top: 8px;
+}
+/* Plans Section End */
+
+/* Call Section */
+.call{
+    max-width: 845px;
+    max-height: auto;
+    margin: 100px auto 0px auto;
+    border-radius: 5px;
+    max-width: 845px;
+    height: 301px;
+    left: 845px;
+    background-image:  linear-gradient(90deg, #F15b22, transparent),url('../images/watch.png');
+}
+
+.call div {
+    margin: 0px 450px 50px 50px;
+    padding-top: 40px;
+}
+
+.call div button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    color: #F15b22;
+    background-color: white;
+    border: none;
+}
+/* Call Section End */
+
+/* Main Section End */
+
+/* Footer Stert */
+footer {
+    background-color: black;
+}
+
+footer .foot-content {
+    display: flex;
+    justify-content: space-around;
+    max-width:  845px;
+    margin: 150px auto 0px auto;
+}
+
+.foot-content div {
+
+    color: wheat;
+}
+
+.foot-content  input {
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+    color: wheat;
+    border: solid wheat;
+}
+
+.foot-content button {
+    color: #F15b22;
+    padding: 5px 10px;
+    font-weight: bolder;
+}
+
+.foot-content p {
+    line-height: 20px;
+    font-size: small;
+    padding: 5px;
+    margin-right: 300px;
+}
+/* Footer End */
